@@ -13,6 +13,8 @@ public class Product {
     private Long id;
     private String name;
 
+    private Integer price;
+
     public Product(Long id, String name) {
         this.id = id;
         this.name = name;
